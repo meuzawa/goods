@@ -243,7 +243,7 @@ footer p {
   }
   .meu-text {
     padding: 0 10px;
-    height: 200px;
+    height: auto;
   }
   .meu-text .sub-title {
     font-size: 15px;
