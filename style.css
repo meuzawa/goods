@@ -23,6 +23,7 @@ ul {
 }
 li {
   color: #ffffff;
+  text-decoration:underline;
 }
 .red {
   color: #ff69b4;
