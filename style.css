@@ -101,6 +101,8 @@ a:hover::after {
 }
 .form {
   display: flex;
+  width:700px;
+  margin: 0 auto;
 }
 .meu-jacket, .form-lists {
   width: 50%;
