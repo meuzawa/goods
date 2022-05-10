@@ -23,7 +23,6 @@ ul {
 }
 li {
   color: #ffffff;
-  text-decoration:underline;
 }
 .red {
   color: #ff69b4;
@@ -186,6 +185,7 @@ footer {
 }
 .copyright-link {
   color: #ffffff;
+  text-decoration:underline;
 }
 footer p {
   text-align: center;
