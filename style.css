@@ -55,7 +55,6 @@ a:hover::after {
 
 
 
-/* 仮です */
 .header-jacket {
   max-width: 1980px;
   height: auto;
@@ -93,9 +92,8 @@ a:hover::after {
 
 
 
-/* トラックリスト */
-/* トラックリスト */
-/* トラックリスト */
+/* フォーム */
+
 .form-list {
   margin: 50px auto 0;
 }
@@ -128,57 +126,17 @@ a:hover::after {
 
 
 
-/* 動画 */
-/* 動画 */
-/* 動画 */
-.movie {
-  margin-top: 70px;
-  padding-top: 50px;
-  border-top: solid 1px #ffffff;
-  border-bottom: solid 1px #ffffff;
-}
-.xfd, .explain {
-  width: 700px;
-  margin: 0 auto;
-  height: 500px;
-}
+
 .underline {
   text-decoration: underline;
   margin: 0 auto 20px;
 }
-.mv {
-  text-align: center;
-}
-.xfd h3, .xfd p, .explain h3 {
-  width: 560px;
-}
-.xfd p {
-  margin: 0 auto 20px;
-}
 
 
 
 
 
-
-/* 価格 */
-/* 価格 */
-/* 価格 */
-.price {
-  margin-top: 50px;
-  border-bottom: solid 1px #ffffff;
-}
-.price-contents {
-  display: flex;
-  width: 1200px;
-  margin: 80px auto 0;
-}
-.price-text {
-  margin: 0 auto;
-  width: 280px;
-  opacity: 0.9;
-}
-.price-text, .image-box {
+.image-box {
   height: 250px;
 }
 .image-box {
@@ -210,63 +168,6 @@ a:hover::after {
 }
 
 
-/* 場所 */
-/* 場所 */
-/* 場所 */
-.place {
-  margin-top: 50px;
-}
-.place-contents {
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
-}
-.friend {
-  width: 1200px;
-  margin: 100px auto 0;
-  height: auto;
-  position: relative;
-  opacity: 0.9;
-}
-.friend-title {
-  color: #87CEF7;
-  text-decoration: underline;
-}
-.friend-sentence a {
-  color: #ffffff;
-}
-.friend-sentence h3, .friend-sentence p {
-  text-align: center;
-}
-
-.map, .details {
-  width: 600px;
-}
-.details {
-  margin-top: 50px;
-}
-.detals-text {
-  width: 352px;
-  margin: 0 auto;
-}
-.map {
-  margin: 50px 0 0;
-}
-.friend-map {
-  margin: 50px 0;
-}
-.friend-map .friend-title {
-  text-align: center;
-}
-.friend-map p {
-  text-align: center;
-}
-.friend-map img {
-  width: 700px;
-  height: auto;
-  display: block;
-  margin: 0 auto 50px;
-}
 .attention {
   color: red;
   margin: 0;
