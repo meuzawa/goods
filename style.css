@@ -103,10 +103,10 @@ a:hover::after {
 .form {
   display: flex;
 }
-.album-jacket, .form-lists {
+.meu-jacket, .form-lists {
   width: 50%;
 }
-.album-jacket {
+.meu-jacket {
   width: 350px
 }
 .form-lists li {
@@ -154,7 +154,6 @@ a:hover::after {
 .xfd p {
   margin: 0 auto 20px;
 }
-
 
 
 
@@ -326,7 +325,7 @@ footer p {
     width: 100%;
     height: auto;
   }
-  .album-text .title {
+  .meu-text .title {
     font-size: 23px;
   }
   .section-title {
@@ -339,11 +338,11 @@ footer p {
     padding: 0;
     margin-top: 50px;
   }
-  .album-text {
+  .meu-text {
     padding: 0 10px;
     height: 200px;
   }
-  .album-text .sub-title {
+  .meu-text .sub-title {
     font-size: 15px;
   }
   .fadein-open, .fadein2 {
@@ -353,19 +352,19 @@ footer p {
   }
 
   /* トラックリスト */
-  .track-list, .album-jacket, .track-lists, .xfd, .explain, .xfd h3, .xfd p, .explain h3 {
+  .form-list, .meu-jacket, .form-lists, .xfd, .explain, .xfd h3, .xfd p, .explain h3 {
     width: 100%;
   }
-  .track {
+  .form {
     display: block;
     width: 320px;
     margin: 0 auto;
   }
-  .track img {
+  .form img {
     width: 310px;
     height: 310px;
   }
-  .track-lists li {
+  .form-lists li {
     margin-bottom: 20px;
     text-decoration: unset;
   }
