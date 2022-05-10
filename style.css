@@ -1,0 +1,465 @@
+body {
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+  background-color: #232426;
+  font-family: "Nico Moji";
+}
+body p, h2, h3 {
+  color: #ffffff;
+}
+h2 {
+  margin: 0;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 32px;
+  position: relative;
+  color: #87CEF7;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: #ffffff;
+}
+.red {
+  color: #ff69b4;
+}
+.fadein, .fadein-open, .fadein2 {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1s;
+}
+a {
+  position: relative;
+  text-decoration: none;
+  color: #4ba9c1;
+}
+a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #5db5cb;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform .3s;
+}
+a:hover::after {
+  transform: scale(1, 1);
+}
+
+
+
+/* 仮です */
+.header-jacket {
+  max-width: 1980px;
+  height: auto;
+  background-color: #ffffff;
+}
+.header-jacket img {
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+}
+.description {
+  border-bottom: solid 1px #ffffff;
+}
+.description h2, .description p {
+  opacity: 0.8;
+}
+.meu-text {
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.meu-text .title {
+  font-size: 42px;
+  color: #ffffff;
+}
+.meu-text h2.title, .meu-text p.sub-title {
+  text-align: center;
+}
+.meu-text .sub-title {
+  font-size: 20px;
+}
+
+
+
+
+
+
+/* トラックリスト */
+/* トラックリスト */
+/* トラックリスト */
+.form-list {
+  width: 700px;
+  margin: 50px auto 0;
+}
+.form {
+  display: flex;
+}
+.album-jacket, .form-lists {
+  width: 50%;
+}
+.album-jacket {
+  width: 350px
+}
+.form-lists li {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+.form-lists li span {
+  margin-left: 10px;
+  color: #dc143c;
+  background-color: #FFD6CB;
+  padding: 0 10px;
+  border-radius: 15px;
+}
+.form-lists li:nth-of-type(1), .form-lists li:nth-of-type(3), .form-lists li:nth-of-type(4)  {
+  color: #d3d3d3;
+}
+
+
+
+
+/* 動画 */
+/* 動画 */
+/* 動画 */
+.movie {
+  margin-top: 70px;
+  padding-top: 50px;
+  border-top: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;
+}
+.xfd, .explain {
+  width: 700px;
+  margin: 0 auto;
+  height: 500px;
+}
+.underline {
+  text-decoration: underline;
+  margin: 0 auto 20px;
+}
+.mv {
+  text-align: center;
+}
+.xfd h3, .xfd p, .explain h3 {
+  width: 560px;
+}
+.xfd p {
+  margin: 0 auto 20px;
+}
+
+
+
+
+
+
+
+/* 価格 */
+/* 価格 */
+/* 価格 */
+.price {
+  margin-top: 50px;
+  border-bottom: solid 1px #ffffff;
+}
+.price-contents {
+  display: flex;
+  width: 1200px;
+  margin: 80px auto 0;
+}
+.price-text {
+  margin: 0 auto;
+  width: 280px;
+  opacity: 0.9;
+}
+.price-text, .image-box {
+  height: 250px;
+}
+.image-box {
+  width: 600px;
+}
+.big {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.small {
+  font-size: 13px;
+}
+.today {
+  margin-bottom: 50px;
+}
+.image-box img {
+  width: 230px;
+}
+.price-about {
+  width: 1200px;
+  margin: 0 auto 70px;
+}
+.price-about h3 {
+  color: #87CEF7;
+}
+.price-about h3, .price-about p {
+  text-align: center;
+  opacity: 0.9;
+}
+
+
+/* 場所 */
+/* 場所 */
+/* 場所 */
+.place {
+  margin-top: 50px;
+}
+.place-contents {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+.friend {
+  width: 1200px;
+  margin: 100px auto 0;
+  height: auto;
+  position: relative;
+  opacity: 0.9;
+}
+.friend-title {
+  color: #87CEF7;
+  text-decoration: underline;
+}
+.friend-sentence a {
+  color: #ffffff;
+}
+.friend-sentence h3, .friend-sentence p {
+  text-align: center;
+}
+
+.map, .details {
+  width: 600px;
+}
+.details {
+  margin-top: 50px;
+}
+.detals-text {
+  width: 352px;
+  margin: 0 auto;
+}
+.map {
+  margin: 50px 0 0;
+}
+.friend-map {
+  margin: 50px 0;
+}
+.friend-map .friend-title {
+  text-align: center;
+}
+.friend-map p {
+  text-align: center;
+}
+.friend-map img {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto 50px;
+}
+.attention {
+  color: red;
+  margin: 0;
+  text-align: center;
+}
+
+
+/* フッター */
+/* フッター */
+/* フッター */
+footer {
+  margin-top: 50px;
+  height: 150px;
+  border-top: solid 1px #ffffff;
+}
+.copyright-link {
+  color: #ffffff;
+}
+footer p {
+  text-align: center;
+  font-size: 13px;
+}
+.footer-copyright {
+  margin: 30px 0;
+}
+.sns-links {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.sns-links a {
+  width: 100px;
+}
+.sns-links a img {
+  width: 75px;
+}
+.sns-links .twitter {
+  margin-left: 10px;
+}
+.sns-links .instagram,
+.sns-links .youtube {
+  margin-left: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 100%;
+    min-width: 320px;
+  }
+  .header-jacket {
+    height: auto;
+    background-color: unset;
+  }
+  body .header-jacket img {
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+  .album-text .title {
+    font-size: 23px;
+  }
+  .section-title {
+    font-size: 30px;
+  }
+  ul, li {
+    width: 100%;
+  }
+  ul {
+    padding: 0;
+    margin-top: 50px;
+  }
+  .album-text {
+    padding: 0 10px;
+    height: 200px;
+  }
+  .album-text .sub-title {
+    font-size: 15px;
+  }
+  .fadein-open, .fadein2 {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0s;
+  }
+
+  /* トラックリスト */
+  .track-list, .album-jacket, .track-lists, .xfd, .explain, .xfd h3, .xfd p, .explain h3 {
+    width: 100%;
+  }
+  .track {
+    display: block;
+    width: 320px;
+    margin: 0 auto;
+  }
+  .track img {
+    width: 310px;
+    height: 310px;
+  }
+  .track-lists li {
+    margin-bottom: 20px;
+    text-decoration: unset;
+  }
+
+  /* Movie */
+  .movie {
+    padding: 50px 10px;
+  }
+  .mv iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .xfd, .explain {
+    height: 350px;
+  }
+  .xfd {
+    margin-bottom: 100px;
+  }
+
+
+  /* 価格 */
+  .price-contents, .price-about {
+    display: block;
+    min-width: 320px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .price-contents .image-box {
+    width: 100%;
+  }
+  .image-box {
+    height: 400px;
+  }
+  .price-text {
+    height: 180px;
+  }
+  .image-box img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+
+  /* 場所 */
+  .place-contents {
+    display: block;
+    min-width: 320px;
+    width: 100%;
+  }
+  .map, .details {
+    width: 100%;
+  }
+  .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .friend {
+    width: 100%;
+  }
+  .friend-image {
+    height: 320px;
+    top: 70px;
+    left: 45%;
+  }
+  .friend-title h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .friend-map img {
+    width: 320px;
+  }
+  .friend p {
+    font-size: 14px;
+  }
+
+  /* フッター */
+  footer {
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 381px) {
+  .mini-br {
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) and (min-width: 320px) {
+  .price-about {
+    width: 320px;
+  }
+  .detals-text {
+    width: 320px;
+    font-size: 14px;
+  }
+}
